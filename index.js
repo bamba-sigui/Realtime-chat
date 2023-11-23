@@ -43,7 +43,7 @@ server = app.listen(port, () => {
 const io = socket(server, {
   cors: {
     // Put your frontend url here
-    origin: "http://192.168.1.218:5173",
+    origin: "https://realchatserver.netlify.app",
     credentials: true,
   },
 });
